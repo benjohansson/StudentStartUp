@@ -29,8 +29,10 @@ body {
 }
 
 .dropdown {
-    position: relative;
+    position: absolute;
     display: inline-block;
+      left:56%;
+      top:3,5%;
 }
 
 .dropdown-content {
