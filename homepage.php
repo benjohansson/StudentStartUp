@@ -3,7 +3,7 @@
 <title>Välkommen till StudentStartUp</title>
  <meta charset="utf-8"/>
  <link rel="stylesheet" href="HomePage.css">
- 	<script src="new 1.js"></script>
+ 	<script src="homepage.js"></script>
 </head>
 <body>
      <div class="header">
