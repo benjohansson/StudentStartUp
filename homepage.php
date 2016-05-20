@@ -40,7 +40,7 @@
 				</ul>
 		</ul>
 		<ul class="nav navbar-nav navbar-right">
-			<li><a href "#"> - Logga Ut - </a></li>
+			<li><a href="logout.php"> - Logga Ut - </a></li>
 		</ul>
 	</div>
 	</nav>
