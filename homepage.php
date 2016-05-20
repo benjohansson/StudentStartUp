@@ -24,30 +24,31 @@ else
 	<nav class="navbar navbar-inverse">
 
 
-	<div class="navbar-header">
-		<button type="button" class ="navbar-toggle" data-toggle="collapse" data-target="#MainMeny">
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-		</button>
-		<a href="#" class="navbar-brand"> Student Start Up </a>
+	    <div class="navbar-header">
+		    <button type="button" class ="navbar-toggle" data-toggle="collapse" data-target="#MainMeny">
+		    <span class="icon-bar"></span>
+		    <span class="icon-bar"></span>
+		    <span class="icon-bar"></span>
+		    </button>
+        <a href="http://localhost:8888/projektarbete/homepage.php" class="navbar-brand"> Student Start Up </a>
 
-	</div>
-	<div class = "collapse navbar-collapse" id="MainMeny" >
-		<ul class="nav navbar-nav">
-			<li class="active"><a a href="#">Home</a></li>
-			<li><a a href="#">Om oss</a></li>
-			<li><a a href="#">Kontakt</a></li>
-			<li><a a href="#">FaQ</a></li>
+      </div>
+    	<div class = "collapse navbar-collapse" id="MainMeny" >
+    		<ul class="nav navbar-nav">
+    			<li class="active"><a a href="http://localhost:8888/projektarbete/homepage.php">Home</a></li>
+    			<li><a href="http://localhost/grupp13/homepage_om.php">Om oss</a></li>
+    			<li><a href="http://localhost/grupp13/homepage_kontakt.php">Kontakt</a></li>
+    			<li><a href="http://localhost/grupp13/homepage_faq.php#">FaQ</a></li>
 
-			<li class="dropdown">
-				<a href ="#" class="dropdown-toggle" data-toggle="dropdown"> Profil <span class="caret"></span></a>
-				<ul class="dropdown-menu">
-					<li><a href="#">Inlägg</a></li>
-					<li><a href="#">Vänner</a></li>
-					<li><a href="#">Inställningar</a></li>
-				</ul>
-		</ul>
+			    <li class="dropdown">
+				    <a href ="#" class="dropdown-toggle" data-toggle="dropdown"> Profil <span class="caret"></span></a>
+				    <ul class="dropdown-menu">
+					    <li><a href="#">Inlägg</a></li>
+					    <li><a href="#">Vänner</a></li>
+					    <li><a href="#">Inställningar</a></li>
+				    </ul>
+          </li>
+		    </ul>
 		<ul class="nav navbar-nav navbar-right">
 			<li><a href="logout.php"> - Logga Ut - </a></li>
 		</ul>
@@ -66,29 +67,29 @@ else
         </div>
 
         <!-- Page content -->
-        <form id="adForm" name="adForm" method="POST" action="register-ad.php">
-          <input type="text" id="search" name="search" placeholder="Sök efter poster..."><br>
-
-          <input type="text" id="namn" name="namn" placeholder="Fullständigt namn"><br>
-          <input type="text" id="rubrik" name="rubrik" placeholder="Ange rubrik"><br>
-          <textarea name="usertext" id="usertext" placeholder="Skriv en kommentar..."></textarea><br>
-          <input type="submit" value="Posta!" name="postbtn" id="postbtn">
-        </form>
-
         <div id="page-content-wrapper">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12 col-xs-12">
 					<a href="#" class="btn btn-danger" id="menu-toggle">Menu</a>
 					<br>
+          <form id="adForm" name="adForm" method="POST" action="register-ad.php">
+            <input type="text" id="search" name="search" placeholder="Sök efter poster..."><br>
+
+            <input type="text" id="namn" name="namn" placeholder="Fullständigt namn"><br>
+            <input type="text" id="rubrik" name="rubrik" placeholder="Ange rubrik"><br>
+            <textarea name="usertext" id="usertext" placeholder="Skriv en annons..."></textarea><br>
+            <input type="submit" value="Posta!" name="postbtn" id="postbtn">
+          </form>
 					<br>
 						 <div class="col-md-12" style="background-color: lightblue; padding: 5px;">
 								<div class="alert alert-danger fade in">
 								<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
 
+
 								<hr>
-								<h1 id="inlägg-rubrik">Söker Ekonom</h1>
-								<p>Hej jag har en bra företags ide och vill ha en student med kunskap av att starta företag.
+								<h1 id="inlägg-rubrik">Rubrik här</h1>
+								<p>Annons här.
 									<br> Kontakta mig på
 
 									<a href ="#" > MyNewCompany@live.se </a>
@@ -140,5 +141,7 @@ else
         });
     </script>
 </body>
+</html>
+<?php } ?>
 </html>
 <?php } ?>
