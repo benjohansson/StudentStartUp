@@ -1,4 +1,13 @@
-
+<?php
+//Om man inte är inloggad ska man komma till inloggningssidan
+session_start();
+if(!isset($_SESSION['user']))
+{
+  header("Location: http://localhost:8888/projektarbete/");
+}
+else
+{
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -132,3 +141,4 @@
     </script>
 </body>
 </html>
+<?php } ?>
