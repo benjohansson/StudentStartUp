@@ -1,15 +1,16 @@
 #search, #namn, #usertext,#rubrik, #postbtn {
   width: 300px;
   padding: 10px;
-  margin: 10px;
+  margin-top: 15px;
+  margin-bottom: 10px;
   border-radius: 4px;
   font-size: 14px;
   position: relative;
   top: 10%;
-  left: 2%;
+  left: %;
 }
 #search {
   position: absolute;
-  left: 74%;
-  top: 12%;
+  left: 76%;
+  top: 4%;
 }
