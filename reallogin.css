@@ -3,6 +3,7 @@
 }
 body {
   background-color: #E8E8E8;
+  margin-top: -17px;
 }
 .header {
   position: absolute;
@@ -13,7 +14,6 @@ body {
   color: white;
 }
 h1 {
-  background-color: black;
   font-size: 50px;
 }
 .navigation {
@@ -27,7 +27,7 @@ h1 {
 .logInClass {
   position: absolute;
   padding: inherit;
-  top: 25%;
+  top: 22.5%;
   left: 31%;
   border-radius: 4px;
   border: thin outset black;
@@ -69,17 +69,17 @@ h1 {
 li {padding: 7px;}
 ul li:hover{ background-color: green; }
 
-.post {
+.register {
   position: absolute;;
   padding: inherit;
-  top: 42%;
+  top: 37%;
   left: 31%;
   border-radius: 4px;
   border: thin outset black;
   padding: 10px;
   background-color: white;
 }
-#namn, #mail, #lösenord, #valLösen {
+#regnamn, #regmail, #reglösenord, #valLösen  {
   width: 300px;
   padding: 10px;
   margin: 10px;
