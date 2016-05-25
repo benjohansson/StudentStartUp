@@ -9,7 +9,7 @@
   <body>
     <div class="mainBorder">
       <div class="header">
-        <h1>StudentStartUp</h1>
+	  <img src="img/StudentStartUp.jpg" />        
       </div>
       <div class="logInClass">
         <form id="logIn" name="logIn" method="POST" action="login-process.php">
@@ -24,7 +24,7 @@
           <form id="postFrame" onsubmit="return validate()" name="registerForm" method="POST" action="register-process.php">
             <input type="text" id="regnamn" name="regnamn" placeholder="Fullständigt namn">
 
-            <select name="program" placeholder="Område" method="POST" action="register-process.php">
+            <select name="program" id="program" placeholder="Område" method="POST" action="register-process.php">
               <option value="ekonomi">Ekonomi</option>
               <option value="läkare">Läkare</option>
               <option value="datorvetenskap">Datorvetenskap</option>
