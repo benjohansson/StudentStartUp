@@ -18,8 +18,8 @@ h1 {
 }
 .navigation {
   position: relative;
-  top: 135px;
-  left: 211px;
+  top: 112px;
+  left: 194px;
   background-color: #404040;
   width: 170px;
   height: 535px;
@@ -27,7 +27,7 @@ h1 {
 .logInClass {
   position: absolute;
   padding: inherit;
-  top: 22.5%;
+  top: 18.5%;
   left: 31%;
   border-radius: 4px;
   border: thin outset black;
@@ -35,14 +35,14 @@ h1 {
   background-color: white;
 }
 #logEmail{
-  width: 260px;
+  width: 248px;
   padding: 10px;
   margin: 10px;
   border-radius: 4px;
   font-size: 14px;
 }
 #logPassword {
-  width: 190px;
+  width: 150px;
   padding: 10px;
   margin: 10px;
   border-radius: 4px;
@@ -85,6 +85,12 @@ ul li:hover{ background-color: green; }
   margin: 10px;
   border-radius: 4px;
   font-size: 14px;
+}
+#program, #school{
+	width: 223px;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 4px;
 }
 #regbtn {
   background-color: green;
