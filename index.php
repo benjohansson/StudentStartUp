@@ -22,9 +22,22 @@
         <fieldset>
           <legend>Inte registrerad? Registrera dig här!</legend>
           <form id="postFrame" onsubmit="return validate()" name="registerForm" method="POST" action="register-process.php">
-            <input type="text" id="regnamn" name="regnamn" placeholder="Fullständigt namn"><br><br>
+            <input type="text" id="regnamn" name="regnamn" placeholder="Fullständigt namn">
 
-            <input type="email" id="regmail" name="regmail" placeholder="E-post"><br><br>
+            <select name="program" placeholder="Område" method="POST" action="register-process.php">
+              <option value="ekonomi">Ekonomi</option>
+              <option value="läkare">Läkare</option>
+              <option value="datorvetenskap">Datorvetenskap</option>
+              <option value="systemvetenskap">Systemvetenskap</option>
+            </select><br><br>
+
+            <input type="email" id="regmail" name="regmail" placeholder="E-post">
+            <select name="school" id="school" placeholder="Universitet" method="POST" action="register-process.php">
+              <option value="Uppsala universitet">Uppsala univeritet</option>
+              <option value="KTH">KTH</option>
+              <option value="Stockholms universitet">Stockholms universitet</option>
+              <option value="Chalmers">Chalmers</option>
+            </select><br><br>
 
             <input type="password" id="reglösenord" name="reglösenord" placeholder="Välj lösenord"></textarea><br><br>
 
@@ -43,4 +56,4 @@
       </div>
     </div>
   </body>
-</html> 
+</html>
