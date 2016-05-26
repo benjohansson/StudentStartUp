@@ -1,4 +1,4 @@
-#search, #namn, #usertext,#rubrik, #postbtn {
+#search, #namn, #usertext,#rubrik, #postbtn, #useremail, #kategori, #uploadimagecss {
   width: 300px;
   padding: 10px;
   margin-top: 15px;
@@ -11,6 +11,10 @@
 }
 #search {
   position: absolute;
-  left: 76%;
-  top: 4%;
+  left: 10%;
+  top: 0%;
+}
+.uploadpic{
+position: absolute; 
+top: 100%; 
 }
